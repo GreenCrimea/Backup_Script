@@ -99,7 +99,7 @@ do
 				sleep 5
 				option="null"
 			else
-				echo "NO BACKUP FILE \"$restore_timestamp\" FOUND! Try again"
+				echo "NO BACKUP FILE \"$restore\" FOUND! Try again"
 				sleep 5
 			fi
 		else
