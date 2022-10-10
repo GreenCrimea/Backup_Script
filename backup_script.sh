@@ -5,7 +5,7 @@
 #################################################################
 #																#
 #			HOME DIRECTORY BACKUP AND RESTORE SCRIPT			#
-#			    	by Tom Horton - 6/10/22				        # 
+#				by Tom Horton - s4671791 - 6/10/22				#
 #																#
 #################################################################
 #	This script will backup a specified users home directory	#
@@ -30,7 +30,7 @@
 create_backup () {
 
 #Generate timestamp
-local time="$(date +"%Y-%m-%d--%H-%M-%S")"
+local time="$(date +"%Y-%m-%d-%s")"
 echo "timestamp: $time"
 sleep 1.5
 
